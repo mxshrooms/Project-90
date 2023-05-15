@@ -1,0 +1,82 @@
+#output {
+    border-top:10px solid blue;
+    background-color: aqua;
+    border-radius:10px;
+    padding:10px;
+    float:none;
+    text-align:left;
+}
+.centered {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size:45px;
+}
+#game_bg {
+    width:100%;
+    height:100%;
+}
+#questionturn {
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:25px;
+    font-weight: lighter;
+}
+#answerturn {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:25px;
+    font-weight: lighter;
+}
+#output {
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:70%;
+    border-top: 10px solid #ce59d6;
+    background-color: white;
+}
+#n1 {
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform:translate(-50%, 50%);
+    width:20%;
+    height:5%;
+}
+#n2 {
+    position:absolute;
+    top:53%;
+    left:50%;
+    transform:translate(-50%, 50%);
+    width:20%;
+    height:5%;
+}
+#sendbutton {
+    position:absolute;
+    top:65%;
+    left:50%;
+    transform:translate(-50%, 50%);
+    width:20%;
+    height:5%;
+    background-color:#ce59d6;
+    border-radius:50px;
+    border-color: transparent;
+    color:white;
+    font-size:15px;
+    font-weight:bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
